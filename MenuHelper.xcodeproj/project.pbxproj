@@ -49,6 +49,8 @@
 		277006582AEA6B18009D9C0E /* MenuHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2770065C2AEA6B19009D9C0E /* MenuHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuHelperUITests.m; sourceTree = "<group>"; };
 		2770065E2AEA6B19009D9C0E /* MenuHelperUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuHelperUITestsLaunchTests.m; sourceTree = "<group>"; };
+		2770066B2AEA6B68009D9C0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		277006702AEA91E3009D9C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				2770063B2AEA6B17009D9C0E /* MenuHelper */,
+				2770066B2AEA6B68009D9C0E /* AppDelegate.h */,
 				277006512AEA6B18009D9C0E /* MenuHelperTests */,
 				2770065B2AEA6B18009D9C0E /* MenuHelperUITests */,
 				2770063A2AEA6B17009D9C0E /* Products */,
@@ -107,6 +110,7 @@
 				277006442AEA6B18009D9C0E /* Main.storyboard */,
 				277006472AEA6B18009D9C0E /* main.m */,
 				277006492AEA6B18009D9C0E /* MenuHelper.entitlements */,
+				277006702AEA91E3009D9C0E /* Info.plist */,
 			);
 			path = MenuHelper;
 			sourceTree = "<group>";
@@ -441,7 +445,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.scilytics.MenuHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -467,7 +471,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.scilytics.MenuHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
